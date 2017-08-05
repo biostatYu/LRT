@@ -21,7 +21,7 @@ The LRT statistic is defined as the difference of log-likelihood value between t
 The LRT procedure was finished in about 2013. At that time, the author [Ping Zeng](https://github.com/biostatpzeng) was just outside the door of statistical genetics. So that, this procedure was not well designed. I put it here for a beautiful recall of that time.
 
 ## Cite
-Ping Zeng, Yang Zhao, Jin Liu, Liya Liu, Liwei Zhang, Ting Wang, Shuiping Huang, Feng Chen. Likelihood Ratio Tests in Rare Variant Detection for Continuous Phenotypes. Annals of Human Genetics, 2014, 78(5): 320-332. [DOI: 10.1111/ahg.12071](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ahg.12071/abstract) 
+Ping Zeng, Yang Zhao, Jin Liu, Liya Liu, Liwei Zhang, Ting Wang, Shuiping Huang and Feng Chen. Likelihood Ratio Tests in Rare Variant Detection for Continuous Phenotypes. Annals of Human Genetics, 2014, 78(5): 320-332. [DOI: 10.1111/ahg.12071](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ahg.12071/abstract) 
 
 Ciprian M. Crainiceanu and David Ruppert. Likelihood ratio tests in linear mixed models with one variance component. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 2004, 66(1): 165–185. [DOI: 10.1111/j.1467-9868.2004.00438.x](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1467-9868.2004.00438.x/abstract) 
 
