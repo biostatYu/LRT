@@ -1,5 +1,3 @@
-
-
 # LRT: likelihood ratio test (LRT) for SNP set association based on mixed models
 
 **LRT** is a procedure for examining the association of a set of genetic variants (e.g. rare or common SNPs) under the framework of linear mixed models. Very similar to the popular SKAT method which conducts the score test, LRT uses likelihood ratio test to test for the association by testing the variance component parameter. 
