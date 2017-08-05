@@ -7,11 +7,11 @@
 
 LRT  <- function(
 
-	y, # phenotype
+	y, # n by 1 phenotype
 	
-	X, # covariates
+	X, # n by c covariates
 	
-	K, # K matrix
+	K, # n by n K matrix
 	
 	nsim, # number of values to simulate
 	
