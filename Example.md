@@ -24,16 +24,24 @@ X  <-  as.matrix(rep(1,n))
 k  <- read.table("snp.sXX.txt")
 `***
 
-***` fit = LRT (y, X, k, 10e4, method = "REML") 
+***` fit = LRT (y, X, k, 10e4, method = "REML") `***
+
 fit
+
 $obsLRT
+
 [1] 0.0734309
+
 $pvalue
+
 [1] 0.33444
+
 $lambda
+
 [1] 0.003821497
+
 $obsLRT is the LRT statistic, $pvalue is the corresponding p-value and $lambda is the ratio of sigam_g2/sigam_e2. 
-`***
+
 
 
 
