@@ -24,11 +24,17 @@ LRT  <- function(
 
 ***`
 library(RLRsim)
+
 library(compiler)
+
 y <- read.table("phenotype.fam")[,6] 
+
 n  <-  length(y)
+
 X  <-  as.matrix(rep(1,n))
+
 k  <- read.table("snp.sXX.txt")
+
 `***
 
 ***` fit = LRT (y, X, k, 10e4, method = "REML") `***
