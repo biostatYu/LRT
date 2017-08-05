@@ -8,5 +8,5 @@ Specially, let y be a n by 1 vector of continuous phenotypes on n individuals, X
 
 LRT examines the association of G with y (while controling for X) by testing for:
 
-***` *H0*: ***b*** = 0; equivalently, *H0*: ***sigam_g2*** = 0 `***
+***` H0: b = 0; <==>, H0: sigam_g2 = 0 `***
 
