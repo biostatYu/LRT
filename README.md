@@ -22,7 +22,7 @@ The LRT procedure was finished in about 2013. At that time, the author (i.e., [P
 #### A new LRT R function, named [ReLRT](https://github.com/biostatpzeng/LRT/blob/master/ReLRT.R), was recently rewritten. We applied [ReLRT](https://github.com/biostatpzeng/LRT/blob/master/ReLRT.R) to detect eGenes in gene expression data using cis-SNPs.  [ReLRT](https://github.com/biostatpzeng/LRT/blob/master/ReLRT.R) esimates the linear mixed models basde on lme function in R package [nlme](https://cran.r-project.org/web/packages/nlme/index.html) and thus is more efficient than pervious [LRT](https://github.com/biostatpzeng/LRT/blob/master/LRT.R). [ReLRT](https://github.com/biostatpzeng/LRT/blob/master/ReLRT.R) also perfroms the approximate LRT (aLRT) using a mixture null distribution. We call the original LRT via the simulation-based algrithmn exact LRT (eLRT). 
 
 ## References
-+ Ping Zeng, Yang Zhao, Jin Liu, Liya Liu, Liwei Zhang, Ting Wang, Shuiping Huang and Feng Chen. Likelihood Ratio Tests in Rare Variant Detection for Continuous Phenotypes. Annals of Human Genetics, 2014, 78(5): 320-332. [DOI: 10.1111/ahg.12071](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ahg.12071/abstract) 
++ [Ping Zeng](https://github.com/biostatpzeng), Yang Zhao, Jin Liu, Liya Liu, Liwei Zhang, Ting Wang, Shuiping Huang and Feng Chen. Likelihood Ratio Tests in Rare Variant Detection for Continuous Phenotypes. Annals of Human Genetics, 2014, 78(5): 320-332. [DOI: 10.1111/ahg.12071](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ahg.12071/abstract) 
 
 + Ciprian M. Crainiceanu and David Ruppert. Likelihood ratio tests in linear mixed models with one variance component. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 2004, 66(1): 165–185. [DOI: 10.1111/j.1467-9868.2004.00438.x](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1467-9868.2004.00438.x/abstract) 
 
@@ -31,7 +31,7 @@ The LRT procedure was finished in about 2013. At that time, the author (i.e., [P
 + R Core Team. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria, 2013 (https://www.R-project.org/). 
 
 ## Cite
-#### Ping Zeng, Yang Zhao, Jin Liu, Liya Liu, Liwei Zhang, Ting Wang, Shuiping Huang and Feng Chen. Likelihood Ratio Tests in Rare Variant Detection for Continuous Phenotypes. Annals of Human Genetics, 2014, 78(5): 320-332. [DOI: 10.1111/ahg.12071](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ahg.12071/abstract) 
+#### [Ping Zeng](https://github.com/biostatpzeng), Yang Zhao, Jin Liu, Liya Liu, Liwei Zhang, Ting Wang, Shuiping Huang and Feng Chen. Likelihood Ratio Tests in Rare Variant Detection for Continuous Phenotypes. Annals of Human Genetics, 2014, 78(5): 320-332. [DOI: 10.1111/ahg.12071](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ahg.12071/abstract) 
 
 
 ## Contact
