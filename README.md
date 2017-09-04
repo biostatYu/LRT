@@ -28,7 +28,7 @@
 
 + Fabian Scheipl, Sonja Greven and Helmut Küchenhoff. Size and power of tests for a zero random effect variance or polynomial regression in additive and linear mixed models. Computational Statistics & Data Analysis, 2008, 52(7): 3283-3299. [DOI: 10.1016/j.csda.2007.10.022](http://www.sciencedirect.com/science/article/pii/S0167947307004306)
 
-R Core Team. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria, 2013 (https://www.R-project.org/). 
++ R Core Team. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria, 2013 (https://www.R-project.org/). 
 
 ## Cite
 #### Ping Zeng, Yang Zhao, Jin Liu, Liya Liu, Liwei Zhang, Ting Wang, Shuiping Huang and Feng Chen. Likelihood Ratio Tests in Rare Variant Detection for Continuous Phenotypes. Annals of Human Genetics, 2014, 78(5): 320-332. [DOI: 10.1111/ahg.12071](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ahg.12071/abstract) 
