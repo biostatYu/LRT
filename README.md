@@ -1,23 +1,23 @@
 # LRT: likelihood ratio test for SNP set association based on mixed models
 
 ## Introduction
-+ Likelihood ratio test (**LRT**) is a [**R**](https://cran.r-project.org/) procedure for examining the association of a set of genetic variants (e.g. rare or common SNPs) under the framework of linear mixed models. Very similar to the popular [SKAT](http://www.sciencedirect.com/science/article/pii/S0002929711002229?via%3Dihub) method which conducts the score test, LRT uses likelihood ratio test to test for the association by testing the variance component parameter. 
+Likelihood ratio test (**LRT**) is a [**R**](https://cran.r-project.org/) procedure for examining the association of a set of genetic variants (e.g. rare or common SNPs) under the framework of linear mixed models. Very similar to the popular [SKAT](http://www.sciencedirect.com/science/article/pii/S0002929711002229?via%3Dihub) method which conducts the score test, LRT uses likelihood ratio test to test for the association by testing the variance component parameter. 
 
-+ Specifically, let ***y*** be a n by 1 vector of continuous phenotypes on n individuals, ***X*** is a n by p matrix for covariates, and ***G*** is a n by m matrix for genotypes of SNPs for a genetic region (i.e., gene). We relate ***y***, ***X*** and ***G*** by a linear mixed model:
+Specifically, let ***y*** be a n by 1 vector of continuous phenotypes on n individuals, ***X*** is a n by p matrix for covariates, and ***G*** is a n by m matrix for genotypes of SNPs for a genetic region (i.e., gene). We relate ***y***, ***X*** and ***G*** by a linear mixed model:
 
 ***` y = Xa + Gb + e; b ~ N(0, sigam_g2), e ~　N(0, sigam_e2)　`***
 
-+ Above, sigam_g2 is the genetic variance, and sigam_e2 is residual variance. 
+Above, sigam_g2 is the genetic variance, and sigam_e2 is residual variance. 
 
-+ LRT examines the association of ***G*** with ***y*** (while controling for ***X***) by testing for:
+LRT examines the association of ***G*** with ***y*** (while controling for ***X***) by testing for:
 
 ***` H0: b = 0; <==>, H0: sigam_g2 = 0 `***
 
-+ The LRT statistic is defined as the difference of log-likelihood value between the null model (i.e. ***y = Xa + e***) and the alternative model (i.e. ***y = Xa + Gb + e***). Due to the limited parameter space of sigam_g2, obtaining the null distribution of the LRT statistic is not trivial. We use the method of spectral decomposition proposed by Crainiceanu & Ruppert [(2004)](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1467-9868.2004.00438.x/abstract) to generate the exact finite sample null distribution (implemented via the [**R**](https://cran.r-project.org/) package [RLRsim](https://github.com/fabian-s/RLRsim)).
+The LRT statistic is defined as the difference of log-likelihood value between the null model (i.e. ***y = Xa + e***) and the alternative model (i.e. ***y = Xa + Gb + e***). Due to the limited parameter space of sigam_g2, obtaining the null distribution of the LRT statistic is not trivial. We use the method of spectral decomposition proposed by Crainiceanu & Ruppert [(2004)](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1467-9868.2004.00438.x/abstract) to generate the exact finite sample null distribution (implemented via the [**R**](https://cran.r-project.org/) package [RLRsim](https://github.com/fabian-s/RLRsim)).
 
 
 ## Note
-+ The LRT procedure was finished in about 2013. At that time, the author (i.e., [Ping Zeng](https://github.com/biostatpzeng)) was a newer and was outside the door of statistical genetics. Thus, you will find that this procedure was not well designed. I put it here for a beautiful recall of that time.
+The LRT procedure was finished in about 2013. At that time, the author (i.e., [Ping Zeng](https://github.com/biostatpzeng)) was a newer and was outside the door of statistical genetics. Thus, you will find that this procedure was not well designed. I put it here for a beautiful recall of that time.
 
 #### A new LRT R function, named [ReLRT](https://github.com/biostatpzeng/LRT/blob/master/ReLRT.R), was recently rewritten. We applied [ReLRT](https://github.com/biostatpzeng/LRT/blob/master/ReLRT.R) to detect eGenes in gene expression data using cis-SNPs.  [ReLRT](https://github.com/biostatpzeng/LRT/blob/master/ReLRT.R) esimates the linear mixed models basde on lme function in R package [nlme](https://cran.r-project.org/web/packages/nlme/index.html) and thus is more efficient than pervious [LRT](https://github.com/biostatpzeng/LRT/blob/master/LRT.R). [ReLRT](https://github.com/biostatpzeng/LRT/blob/master/ReLRT.R) also perfroms the approximate LRT (aLRT) using a mixture null distribution. We call the original LRT via the simulation-based algrithmn exact LRT (eLRT). 
 
