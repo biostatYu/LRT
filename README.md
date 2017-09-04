@@ -31,6 +31,6 @@ Fabian Scheipl, Sonja Greven and Helmut Küchenhoff. Size and power of tests for
 R Core Team. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria, 2013 (https://www.R-project.org/). 
 
 ## Contact
-I am very grateful to any questions, comments, or bugs reports; and please contact [Ping Zeng](https://github.com/biostatpzeng) via zpstat@xzhmu.edu.cn or pingzeng@umich.edu.
+I am very grateful to any questions, comments, or bugs reports; and please contact [Ping Zeng](https://github.com/biostatpzeng) via zpstat@xzhmu.edu.cn or ~~pingzeng@umich.edu~~.
 
 
