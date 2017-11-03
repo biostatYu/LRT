@@ -26,6 +26,8 @@ library(RLRsim)
 
 library(compiler)
 
+source("LRT2017.R")
+
 y <- read.table("phenotype.fam")[,6] 
 
 n  <-  length(y)
