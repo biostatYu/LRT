@@ -4,7 +4,7 @@
 Likelihood ratio test (LRT) is a [**R**](https://cran.r-project.org/) procedure for examining the association of a set of genetic variants (e.g. rare or common SNPs) under the framework of linear mixed models. Very similar to the popular [SKAT](http://www.sciencedirect.com/science/article/pii/S0002929711002229?via%3Dihub) method which conducts the score test, LRT uses likelihood ratio test to test for the association by testing the variance component parameter. 
 
 Specifically, let y be a n by 1 vector of continuous phenotypes on n individuals, X is a n by p matrix for covariates, and G is a n by m matrix for genotypes of SNPs for a genetic region (i.e., gene). We relate y, X and G by a linear mixed model:
-
+$\[h({t_i}|{X_i},\;{G_i})\; = \;{h_0}({t_i}){e^{X_i^Ta\; + \;G_i^Tb}},\;{\rm{ }}{b_j}\;\~\;N(0,\;{\rm{\sigma }}_b^2)\]$
 ***` y = Xa + Gb + e; b ~ N(0, sigam_g2), e ~　N(0, sigam_e2)　`***
 
 Above, sigam_g2 is the genetic variance, and sigam_e2 is residual variance. 
